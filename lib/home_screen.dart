@@ -11,7 +11,7 @@ class HomeScreen extends StatelessWidget {
           color: Colors.white,
           child: Column(children: [
             SizedBox(
-              height: 50,
+              height: 20,
             ),
             Row(
               children: [
