@@ -13,8 +13,8 @@ class HomeScreen extends StatelessWidget {
             height: 50,
           ),
           Row(children: [
-            IconButton(icon: Icon(Icons.menu), onPressed: () {})
+            IconButton(icon: Icon(Icons.menu), onPressed: () {}).
           ])
         ]));
   }
-}
+} 
