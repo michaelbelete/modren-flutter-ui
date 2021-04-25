@@ -10,6 +10,9 @@ class HomeScreen extends StatelessWidget {
           ),
           color: Colors.white,
           child: Column(children: [
+            SizedBox(
+              height: 50,
+            ),
             Row(
               children: [
                 IconButton(icon: Icon(Icons.menu), onPressed: () {}),
