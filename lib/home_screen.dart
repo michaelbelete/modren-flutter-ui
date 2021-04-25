@@ -12,9 +12,10 @@ class HomeScreen extends StatelessWidget {
           SizedBox(
             height: 50,
           ),
-          Row(children: [
+          Row(
+            children: [
             IconButton(icon: Icon(Icons.menu), onPressed: () {}).
-          ])
+          ]),
         ]));
   }
 } 
