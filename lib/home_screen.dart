@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'config.dart'
 class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -23,7 +23,7 @@ class HomeScreen extends StatelessWidget {
                       Icons.location_on,
                       color: primaryGreen,
                     ),
-                    Text('Ethiopia')
+                    Text('Ethiopia'),
                   ])
                 ])
               ],
