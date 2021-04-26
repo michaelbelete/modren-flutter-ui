@@ -31,7 +31,13 @@ class _HomeScreenState extends State<HomeScreen> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  IconButton(icon: Icon(Icons.menu), onPressed: () {}),
+                  IconButton(icon: Icon(Icons.menu), onPressed: () {
+                      setState(() {
+                          xOffset = 230;
+                          yOffset = 150;
+                          scaleFactor=0.6;
+                      })
+                  }),
                   Column(children: [
                     Text('Location'),
                     Row(children: [
