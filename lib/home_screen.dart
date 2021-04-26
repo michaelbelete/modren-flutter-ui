@@ -7,10 +7,15 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  double xOffset = 0;
+  double yOffset = 0;
+  double scaleFactor = 0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: AnimatedContainer(
+          transform: Matrix4.translationValues(xOffset, yOffset, 0)...scale(scaleFactor)
           duration: Duration(
             milliseconds: 250,
           ),
