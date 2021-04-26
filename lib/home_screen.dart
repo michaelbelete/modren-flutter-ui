@@ -26,8 +26,8 @@ class HomeScreen extends StatelessWidget {
                     ),
                     Text('Ethiopia'),
                   ]),
-                  CircleAvatar()
-                ])
+                ]),
+                CircleAvatar()
               ],
             ),
           ])),
