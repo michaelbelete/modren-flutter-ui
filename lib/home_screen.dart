@@ -15,7 +15,7 @@ class HomeScreen extends StatelessWidget {
               height: 20,
             ),
             Row(
-              crossAxisAlignment: CrossAxisAlignment.stretch,
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 IconButton(icon: Icon(Icons.menu), onPressed: () {}),
                 Column(children: [
