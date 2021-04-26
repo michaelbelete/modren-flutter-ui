@@ -15,7 +15,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: AnimatedContainer(
-          transform: Matrix4.translationValues(xOffset, yOffset, 0)...scale(scaleFactor),
+          transform: Matrix4.translationValues(xOffset, yOffset, 0)..scale(scaleFactor),
           duration: Duration(
             milliseconds: 250,
           ),
